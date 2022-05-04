@@ -1,0 +1,36 @@
+.carousel-inner{
+    /*iconos de nuestro carusel*/
+    width: 300px;    
+    
+}
+.center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#cartaCarlos{
+    display: flex;
+    float: left;
+}
+.card-img-top{
+    height: 250px;
+    
+}
+.formulario{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    border:  1px solid lightgray;
+    margin: 20px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.form-group{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+}
+.card-footer{
+    text-align: center;
+}

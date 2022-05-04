@@ -1,0 +1,41 @@
+body{
+    background-color: #ebe9eb;
+}
+
+.caja-flotante{
+    margin: 40px; 
+    background-color: white;
+    border-style: solid;
+    border: width 1em;
+    border-top: solid 0px;
+    border-color: #9a9a9a;
+    border-radius: 5px;
+    
+    
+}
+.cabecera, .contenido{
+    padding: 10px;
+    border-bottom: solid 2px #eeeeee;
+}
+.botones{
+    padding: 10px;
+}
+
+#boton-aceptar{
+    background-color: #0090ff;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#boton-cancelar{
+    background-color:#aaaaaa;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    
+
+}

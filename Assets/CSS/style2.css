@@ -1,0 +1,52 @@
+/* Este es un comentario en CSS
+
+Para modificar ID usamos #
+
+Para modificar clases usamos .
+
+*/
+
+/* body { background-color:lightgray;
+}
+
+.salon{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#adriana{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rodrigo{
+
+}
+
+#edgar{
+
+}
+
+#sandra{
+
+}
+
+.generation{
+*/
+-->
+.paquete{
+    padding: 20px;
+    border: 1px;
+    margin: 15px;
+}
+
+.paquete2{
+    padding: 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 3px;
+    margin: 10px;
+}
+

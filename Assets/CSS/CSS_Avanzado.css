@@ -1,0 +1,47 @@
+body{
+    background-color: #9f9f9f;
+}
+/*
+.grid{
+    display: grid;  Esto es para que se vea como cuadricula, con el tamaño total de la pantalla 
+
+    display: inline-grid; Es para que se vea como cuadricula con tamaño total de la pantalla definido por nosotros 
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 5px;
+}
+*/
+
+.grid{
+    display: grid;
+    grid-template-areas: "header"
+                        "contente sidebar"
+                        "imagen"
+                        "footer";
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(4, 100px);
+    
+}
+.header{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.content{
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.footer{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.sidebar{
+    background-color: green;
+   /*grid-column-start: 1; */
+    /*grid-column-end:*/
+}
+.imagen {
+    background-color:#9edbff
+}

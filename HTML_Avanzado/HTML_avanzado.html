@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios, tablas y anclajes</title>
+    <link rel="stylesheet" href="/Introduccion_HTML/HTML_Avanzado/HTML_avanzado.CSS">
+</head>
+<body>
+
+    <!---
+        Formulario
+
+        Nor sirve para recopilar información de nuestros usuarios
+
+        Atributos importanes:
+            - action: es donde se va a enviar la información
+            - method: es el metod de envío de la informacion
+    --->
+ <fieldset>
+    <legend id="legend">Formulario de contacto</legend>
+    <form action=>
+        <label>Este es un boton simple</label>
+        <input type="button"> <!--- Eso es un boton-->
+        <br>
+        <br>
+        <input type="checkbox"> <!--- Este es un checkbox -->
+        <br>
+        <label >Selecciona tu fecha de reservación</label>
+        <br>
+        <input type="date"> <!-- Esto es una fecha-->
+        <br>
+        <br>
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre"> <!-- Esto es un texto -->
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido"> <!-- Esto es un texto -->
+        <br>
+        <input type="text"> <!-- Esto es un texto -->
+        
+        <br>
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <input type="number"> <!-- Esto es un numero-->
+        <br>
+        <br>
+        <input type="file"> <!--Este unput es para enviar archivos -->
+        <br>
+        <br>
+        <input type="radio"> <!-- Esto es un radio -->
+        <br>
+        <br>
+        <input type="range"> <!--Esto es un rango -->
+        <br>
+        <br>
+        <input type="tel"> <!--Esto es un telefono-->
+        <br>
+        <br>
+        <input type="time"> <!-- Esto es un horario -->
+        <br>
+        <br>
+        <input type="reset"> <!--Es es un boton de reseteo-->
+        <input type="submit"> <!-- Este es un boton de envío -->
+        
+        <br>
+        <br>
+<label for="">Agrega aqui tu numero telefonico con lada</label>
+        <input type="tel" placeholder="+(lada)(numero telefonico)"> 
+    </form>
+</fieldset> 
+<!-- tablas-->
+
+    <table id="tablita">
+        <h3>Esta es mi primer tabla</h3>
+            <th>Gastos del 2020</th>
+            <th>Gastos del 2021</th>
+            <th>Gastos del 2022</th>
+        <tr>
+            <th></th>
+            <th></th>
+            <td>Enero</td>
+            <td>Febrero</td>
+            <td>Marzo</td>
+            <td>Abril</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td>$400</td>
+            <td>$500</td>
+            <td>$600</td>
+        </tr>
+        <td>$1000</td>
+        <td>$1000</td>
+    </table>
+<!-- Otra tabla-->
+
+
+<h1>Animales en peligro de extincion</h1>
+<!--    
+    cellspacing: Esta propiedad especifica el espacio entre celdas
+    cellpading: Esta propiedad especifica el espacio entre bordes de celdas (interno)
+    colspan: Esta propiedad especifica el número de columnas que ocupa una celda
+
+
+
+
+
+-->
+
+<table align="center" cellspacing="2" cellpadding="2" border="5" bgcolor="dddddd">
+    <tr>
+        <td colspan="4" align="center" bgcolor="666666">
+            <font color="#FFFFFF"><strong>Animales en peligro de extinción</strong></font>
+        </td>
+    </tr>
+    <tr bgcolor="aaaaaa">
+        <td>Nombre</td>
+        <td align="center">Cabezas</td>
+        <td align="center">Previsión 2010</td>
+        <td align="center">Previsión 2020</td>
+    </tr>
+    <tr>
+        <td>Ballena</td>
+        <td align="center">6000</td>
+        <td align="center">4000</td>
+        <td align="center">1500</td>
+    </tr>
+    <tr>
+        <td>Oso Pardo</td>
+        <td align="center">50</td>
+        <td rowspan="2" colspan="2" align="center" bgcolor="red">0</td>
+    </tr>
+    <tr>
+        <td>Lince</td>
+        <td align="center">10</td>
+    </tr>
+    <tr>
+        <td>Tigre</td>
+        <td align="center">300</td>
+        <td colspan="2" align="center">210</td>
+    </tr>
+</table>
+
+
+<h1 align="center">Maquetado de pagina web con una tabla</h1>
+<table id="pagina" ></table> >
+    <tr>
+        <td colspan="2" ></table>>NAVBAR</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Contenido</td>
+        <td>Imagen1</td>
+    </tr>
+    <tr>
+        <td>Imagen2</td>
+    </tr>
+    <tr>
+        <td>Imagen3</td>
+    </tr>
+    <tr colspan="2">
+        <td>Footer</td>
+
+    </tr>
+
+
+
+</table>
+
+
+</body>
+</html>
